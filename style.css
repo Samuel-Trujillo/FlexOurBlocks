@@ -1,5 +1,5 @@
 .container{
-    width: 1050px;
+    width: 925px;
     background-color: silver;
     margin: 0px auto;
     padding: 20px;
@@ -18,20 +18,22 @@
 .main {
     height: 400px;
     width: 700px;
+    margin: 10px;
     background-color: red;
 }
 .sub-content {
     height: 200px;
     width: 210px;
-    margin: 20px;
+    margin-top: 20px;
     background-color: yellow;
 }
 #advertisement {
     height: 120px;
-    width: 660px;
+    width: 670px;
     margin: 20px;
     background-color: purple;
 }
 .row {
-    display:flex
- }
+    display:flex;
+    justify-content: space-around;
+}
